@@ -8,7 +8,7 @@ body, html {
 .third-block {
     height: 400px;
     position: relative;
-    margin-top: 100px;
+    margin-top: 500px;
     overflow: hidden;
 }
 
@@ -146,7 +146,10 @@ header {
     .eco-opera-title {
         font-size: 24px;
     }
+    
 }
+
+
 
 @media (max-width: 576px) {
     .hero-title {
@@ -155,9 +158,33 @@ header {
     .eco-opera-title {
         font-size: 20px;
     }
+    .top-left h5, .top-center h5, .top-right p {
+        font-size: 8px; /* Уменьшаем размер шрифта */
+        line-height: 1.4; /* Увеличиваем межстрочный интервал */
+    }
+
+    .top-left, .top-center, .top-right {
+        padding: 1px; /* Добавляем отступы вокруг текста */
+    }
+
+    .top-left h5 {
+        margin-bottom: 5px; /* Добавляем пространство между строками */
+    }
+
+    .top-right p {
+        margin-top: 5px; /* Добавляем отступ сверху */
+    }
+
+    .nnn-text {
+        font-size: 180px; /* Уменьшаем размер главного текста NNN */
+        bottom: -100px; /* Поднимаем текст, чтобы он не вылезал за экран */
+    }
+    .third-block{
+        height: 200px;
+        margin-top: 800px;
+    }
+    
 }
-
-
 
 body {
     font-family: Arial, sans-serif;
