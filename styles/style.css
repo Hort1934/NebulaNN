@@ -1,0 +1,418 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+}
+
+.third-block {
+    height: 400px;
+    position: relative;
+    margin-top: 75px;
+    overflow: hidden;
+}
+
+.background-image {
+    background-image: url('../images/child_background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.nnn-text {
+    font-size: 360px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    opacity: 0.33;
+    bottom: -150px;
+}
+
+.top-left {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    opacity: 0.6;
+    color: white;
+}
+
+.top-center {
+    font-size: 10px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    opacity: 0.6;
+    transform: translateX(-50%);
+    color: white; 
+}
+
+.top-right {
+    font-size: 15px;
+    text-align: right;
+    position: absolute;
+    top: 50px;
+    opacity: 0.6;
+    right: 50px;
+    color: white; 
+}
+
+.empty-section {
+    height: 400px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.eco-opera-title {
+    font-size: 45px;
+    margin: 0;
+}
+
+.eco-opera-description {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+header {
+    padding: 20px 0;
+    transition: background 0.5s;
+}
+
+.nav-link {
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+.donate-button {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.donate-button:hover {
+    background-color: #ffffff;
+    color: #1c1e24;
+}
+
+.hero-section {
+    height: 190vh;
+    width: 100%;
+    background-image: url('../images/main_background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-content {
+    text-align: left;
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.hero-title {
+    font-size: 90px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero-subtitle {
+    margin-left: -30px;
+    font-size: 48px;
+    margin-top: 400px;
+    opacity: 0.80;
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 40px;
+    }
+    .eco-opera-title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-title {
+        font-size: 30px;
+    }
+    .eco-opera-title {
+        font-size: 20px;
+    }
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.team-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.team-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.team-section p {
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+
+.text-left {
+    width: 45%;
+    text-align: left;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.text-right {
+    width: 45%;
+    text-align: right;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.team-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 30px;
+    justify-items: center;
+    align-items: start;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.member-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.member-photo {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.position {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.1rem;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.name {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+.story-section {
+    padding: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.story-title {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.story-title-left {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.story-title-right {
+    text-align: right;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: 14px;
+}
+
+.center-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+.center-text {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 0 20px;
+    line-height: 1.5;
+    color: gray;
+}
+
+.gray-square {
+    background-color: #cccccc;
+    margin: 0 0px;
+}
+
+.small {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.medium {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.large {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.empty-cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.card-wrapper {
+    text-align: center;
+}
+
+.empty-card {
+    width: 350px;
+    height: 200px;
+    background-color: #f4f4f4;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.card-caption {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #555;
+}
+
+.center-left-text {
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: left; 
+    font-size: 24px;
+    color: #555;
+    line-height: 1.5; 
+}
+
+.text-block {
+    max-width: 800px; 
+    margin: 50px auto;
+    text-align: left; 
+    font-size: 18px; 
+    color: #555; 
+    line-height: 1.5;
+    padding: 20px; 
+}
+
+.donation-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 40px;
+}
+
+.donation-text {
+    text-align: left;
+    font-size: 18px; 
+    color: #555;
+    max-width: 70%;
+}
+
+.donate-button-future {
+    margin-right: 200px;
+    background-color: black; 
+    color: white; 
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.donate-button-future:hover {
+    background-color: #333;
+}
+
+.scrollable-video-section {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.video-placeholder {
+    flex: 0 0 300px; /* Ширина каждой ячейки 300px */
+    height: 200px;
+    background-color: #ccc;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.scrollable-video-section::-webkit-scrollbar {
+    height: 10px;
+}
+
+.scrollable-video-section::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+
+.scrollable-video-section::-webkit-scrollbar-track {
+    background-color: #f4f4f4;
+}
