@@ -8,7 +8,7 @@ body, html {
 .third-block {
     height: 400px;
     position: relative;
-    margin-top: 75px;
+    margin-top: 100px;
     overflow: hidden;
 }
 
@@ -72,8 +72,16 @@ body, html {
     margin: 0;
 }
 
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
 .eco-opera-description {
-    font-size: 22px;
+    font-size: 15px;
     line-height: 1.5;
 }
 
