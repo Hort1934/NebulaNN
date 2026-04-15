@@ -184,11 +184,13 @@ header.navbar {
 }
 
 .top-center {
-    font-size: 10px;
     left: 50%;
     transform: translateX(-50%);
 }
 
+.top-center h5 {
+    font-size: 10px;
+}
 .top-right {
     font-size: 15px;
     text-align: right;
