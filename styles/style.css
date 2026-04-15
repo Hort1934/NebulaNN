@@ -509,7 +509,7 @@ header.navbar {
     }
 
     .hero-title {
-        margin-left: 0;
+        margin-left: 0 !important;
     }
 
     .hero-subtitle {
