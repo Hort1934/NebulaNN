@@ -27,6 +27,7 @@ header.navbar {
     background: rgba(14, 19, 30, 0.72);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
+    width: 100%;
     box-shadow: 0 6px 20px rgba(9, 14, 24, 0.18);
     transition: background 0.3s ease;
 }
@@ -164,7 +165,7 @@ header.navbar {
     text-align: center;
     position: absolute;
     opacity: 0.3;
-    bottom: -120px;
+    bottom: 0;
     z-index: 1;
     line-height: 1;
     margin: 0;
@@ -190,7 +191,8 @@ header.navbar {
 }
 
 .top-center h5 {
-    font-size: 10px;
+    font-size: clamp(0.9rem, 1.8vw, 1.05rem);
+    margin: 0;
 }
 .top-right {
     font-size: 15px;
@@ -271,8 +273,10 @@ header.navbar {
 
 .member-photo {
     width: 100%;
-    height: 300px;
-    object-fit: cover;
+    height: 340px;
+    object-fit: contain;
+    object-position: center top;
+    background-color: #e7ebf2;
 }
 
 .position {
@@ -561,7 +565,7 @@ header.navbar {
     }
 
     .nnn-text {
-        bottom: -70px;
+        bottom: 0;
     }
 }
 
@@ -577,7 +581,7 @@ header.navbar {
     .top-left h5,
     .top-center h5,
     .top-right p {
-        font-size: 0.62rem;
+        font-size: 0.78rem;
         line-height: 1.35;
         margin: 0;
     }
@@ -592,6 +596,6 @@ header.navbar {
 
     .nnn-text {
         font-size: clamp(4.5rem, 34vw, 8rem);
-        bottom: -34px;
+        bottom: 0;
     }
 }
