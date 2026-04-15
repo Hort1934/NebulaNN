@@ -25,6 +25,7 @@ body {
 header.navbar {
     padding: 12px 0;
     background: rgba(14, 19, 30, 0.72);
+    -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
     box-shadow: 0 6px 20px rgba(9, 14, 24, 0.18);
     transition: background 0.3s ease;
